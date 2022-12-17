@@ -1,3 +1,4 @@
+// Carousel jQuery //
 $(function () {
   $(".carousel").carousel({ interval: 2000, pause: "false" });
   $("#carouselButton").click(function () {
@@ -11,4 +12,14 @@ $(function () {
       $("#carouselButton").children("i").addClass("fa-pause");
     }
   });
+});
+
+// Activate button when clicked for Reserve Campsite //
+$('#reserveButton').on('click', function() {
+  $('#reserveButton').show();
+});
+
+// Activate button when clicked for Login modals //
+$('#loginButton').on('click', function() {
+  $('#loginButton').show();
 });
