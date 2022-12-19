@@ -62,12 +62,6 @@ a:hover {
   background-color: $color-mid;
 }
 
-.tab-content {
-  border: 1px solid #ddd;
-  border-top: none;
-  padding: 10px;
-}
-
 .carousel-caption {
   background-color: $color-black-transparent;
 }
@@ -83,14 +77,14 @@ a:hover {
   z-index: 100;
 }
 
-#reserveButton {
+#reserveModal {
   .modal-header {
     background-color: $color-teal;
     color: white;
   }
 }
 
-#loginButton {
+#loginModal {
   .modal-header {
     background-color: $color-mid;
     color: white;

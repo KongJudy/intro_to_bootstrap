@@ -35,11 +35,6 @@ a:hover {
 .navbar-dark {
   background-color: #901cad; }
 
-.tab-content {
-  border: 1px solid #ddd;
-  border-top: none;
-  padding: 10px; }
-
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.5); }
 
@@ -52,10 +47,10 @@ a:hover {
   bottom: 0;
   z-index: 100; }
 
-#reserveButton .modal-header {
+#reserveModal .modal-header {
   background-color: #17a2bb;
   color: white; }
 
-#loginButton .modal-header {
+#loginModal .modal-header {
   background-color: #901cad;
   color: white; }
